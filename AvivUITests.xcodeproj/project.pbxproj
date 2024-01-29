@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67EEA3F62B680704007100B0 /* AvivUITestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EEA3F52B680704007100B0 /* AvivUITestsApp.swift */; };
+		67EEA3F82B680704007100B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EEA3F72B680704007100B0 /* ContentView.swift */; };
+		67EEA3FA2B680706007100B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67EEA3F92B680706007100B0 /* Assets.xcassets */; };
+		67EEA3FD2B680706007100B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67EEA3FC2B680706007100B0 /* Preview Assets.xcassets */; };
+		67EEA4072B680706007100B0 /* AvivUITestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EEA4062B680706007100B0 /* AvivUITestsTests.swift */; };
+		67EEA4112B680706007100B0 /* AvivUITestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EEA4102B680706007100B0 /* AvivUITestsUITests.swift */; };
+		67EEA4132B680706007100B0 /* AvivUITestsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EEA4122B680706007100B0 /* AvivUITestsUITestsLaunchTests.swift */; };
+		67EEA4212B680750007100B0 /* DSComponents in Frameworks */ = {isa = PBXBuildFile; productRef = 67EEA4202B680750007100B0 /* DSComponents */; };
+		67EEA4232B680750007100B0 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 67EEA4222B680750007100B0 /* DesignSystem */; };
+		67EEA4252B680750007100B0 /* IMNDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 67EEA4242B680750007100B0 /* IMNDesignSystem */; };
+		67EEA4272B680750007100B0 /* IWBDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 67EEA4262B680750007100B0 /* IWBDesignSystem */; };
+		67EEA4292B680750007100B0 /* IWTDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 67EEA4282B680750007100B0 /* IWTDesignSystem */; };
+		67EEA42B2B680750007100B0 /* MADesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 67EEA42A2B680750007100B0 /* MADesignSystem */; };
+		67EEA42D2B680750007100B0 /* SLDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 67EEA42C2B680750007100B0 /* SLDesignSystem */; };
+		67EEA4302B6808FC007100B0 /* aviv_design_system_ios in Resources */ = {isa = PBXBuildFile; fileRef = 67EEA42F2B6808FC007100B0 /* aviv_design_system_ios */; };
+		67EEA4322B680A4A007100B0 /* aviv_utils_ios in Resources */ = {isa = PBXBuildFile; fileRef = 67EEA4312B680A4A007100B0 /* aviv_utils_ios */; };
+		67EEA4352B680A76007100B0 /* Form in Frameworks */ = {isa = PBXBuildFile; productRef = 67EEA4342B680A76007100B0 /* Form */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67EEA4032B680706007100B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67EEA3EA2B680704007100B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67EEA3F12B680704007100B0;
+			remoteInfo = AvivUITests;
+		};
+		67EEA40D2B680706007100B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67EEA3EA2B680704007100B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67EEA3F12B680704007100B0;
+			remoteInfo = AvivUITests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67EEA3F22B680704007100B0 /* AvivUITests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvivUITests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67EEA3F52B680704007100B0 /* AvivUITestsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvivUITestsApp.swift; sourceTree = "<group>"; };
+		67EEA3F72B680704007100B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		67EEA3F92B680706007100B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67EEA3FC2B680706007100B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67EEA4022B680706007100B0 /* AvivUITestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvivUITestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67EEA4062B680706007100B0 /* AvivUITestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvivUITestsTests.swift; sourceTree = "<group>"; };
+		67EEA40C2B680706007100B0 /* AvivUITestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvivUITestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67EEA4102B680706007100B0 /* AvivUITestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvivUITestsUITests.swift; sourceTree = "<group>"; };
+		67EEA4122B680706007100B0 /* AvivUITestsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvivUITestsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67EEA42F2B6808FC007100B0 /* aviv_design_system_ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = aviv_design_system_ios; path = ../../../aviv_whitelabel_ios/Packages/aviv_design_system_ios; sourceTree = "<group>"; };
+		67EEA4312B680A4A007100B0 /* aviv_utils_ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = aviv_utils_ios; path = ../../../aviv_whitelabel_ios/Packages/aviv_utils_ios; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67EEA3EF2B680704007100B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EEA4352B680A76007100B0 /* Form in Frameworks */,
+				67EEA4292B680750007100B0 /* IWTDesignSystem in Frameworks */,
+				67EEA42B2B680750007100B0 /* MADesignSystem in Frameworks */,
+				67EEA4272B680750007100B0 /* IWBDesignSystem in Frameworks */,
+				67EEA42D2B680750007100B0 /* SLDesignSystem in Frameworks */,
+				67EEA4212B680750007100B0 /* DSComponents in Frameworks */,
+				67EEA4252B680750007100B0 /* IMNDesignSystem in Frameworks */,
+				67EEA4232B680750007100B0 /* DesignSystem in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EEA3FF2B680706007100B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EEA4092B680706007100B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67EEA3E92B680704007100B0 = {
+			isa = PBXGroup;
+			children = (
+				67EEA42E2B6808E3007100B0 /* Packages */,
+				67EEA3F42B680704007100B0 /* AvivUITests */,
+				67EEA4052B680706007100B0 /* AvivUITestsTests */,
+				67EEA40F2B680706007100B0 /* AvivUITestsUITests */,
+				67EEA3F32B680704007100B0 /* Products */,
+				67EEA4332B680A76007100B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67EEA3F32B680704007100B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67EEA3F22B680704007100B0 /* AvivUITests.app */,
+				67EEA4022B680706007100B0 /* AvivUITestsTests.xctest */,
+				67EEA40C2B680706007100B0 /* AvivUITestsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67EEA3F42B680704007100B0 /* AvivUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67EEA3F52B680704007100B0 /* AvivUITestsApp.swift */,
+				67EEA3F72B680704007100B0 /* ContentView.swift */,
+				67EEA3F92B680706007100B0 /* Assets.xcassets */,
+				67EEA3FB2B680706007100B0 /* Preview Content */,
+			);
+			path = AvivUITests;
+			sourceTree = "<group>";
+		};
+		67EEA3FB2B680706007100B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				67EEA3FC2B680706007100B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67EEA4052B680706007100B0 /* AvivUITestsTests */ = {
+			isa = PBXGroup;
+			children = (
+				67EEA4062B680706007100B0 /* AvivUITestsTests.swift */,
+			);
+			path = AvivUITestsTests;
+			sourceTree = "<group>";
+		};
+		67EEA40F2B680706007100B0 /* AvivUITestsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67EEA4102B680706007100B0 /* AvivUITestsUITests.swift */,
+				67EEA4122B680706007100B0 /* AvivUITestsUITestsLaunchTests.swift */,
+			);
+			path = AvivUITestsUITests;
+			sourceTree = "<group>";
+		};
+		67EEA42E2B6808E3007100B0 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				67EEA4312B680A4A007100B0 /* aviv_utils_ios */,
+				67EEA42F2B6808FC007100B0 /* aviv_design_system_ios */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		67EEA4332B680A76007100B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67EEA3F12B680704007100B0 /* AvivUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67EEA4162B680706007100B0 /* Build configuration list for PBXNativeTarget "AvivUITests" */;
+			buildPhases = (
+				67EEA3EE2B680704007100B0 /* Sources */,
+				67EEA3EF2B680704007100B0 /* Frameworks */,
+				67EEA3F02B680704007100B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvivUITests;
+			packageProductDependencies = (
+				67EEA4202B680750007100B0 /* DSComponents */,
+				67EEA4222B680750007100B0 /* DesignSystem */,
+				67EEA4242B680750007100B0 /* IMNDesignSystem */,
+				67EEA4262B680750007100B0 /* IWBDesignSystem */,
+				67EEA4282B680750007100B0 /* IWTDesignSystem */,
+				67EEA42A2B680750007100B0 /* MADesignSystem */,
+				67EEA42C2B680750007100B0 /* SLDesignSystem */,
+				67EEA4342B680A76007100B0 /* Form */,
+			);
+			productName = AvivUITests;
+			productReference = 67EEA3F22B680704007100B0 /* AvivUITests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67EEA4012B680706007100B0 /* AvivUITestsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67EEA4192B680706007100B0 /* Build configuration list for PBXNativeTarget "AvivUITestsTests" */;
+			buildPhases = (
+				67EEA3FE2B680706007100B0 /* Sources */,
+				67EEA3FF2B680706007100B0 /* Frameworks */,
+				67EEA4002B680706007100B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67EEA4042B680706007100B0 /* PBXTargetDependency */,
+			);
+			name = AvivUITestsTests;
+			productName = AvivUITestsTests;
+			productReference = 67EEA4022B680706007100B0 /* AvivUITestsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67EEA40B2B680706007100B0 /* AvivUITestsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67EEA41C2B680706007100B0 /* Build configuration list for PBXNativeTarget "AvivUITestsUITests" */;
+			buildPhases = (
+				67EEA4082B680706007100B0 /* Sources */,
+				67EEA4092B680706007100B0 /* Frameworks */,
+				67EEA40A2B680706007100B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67EEA40E2B680706007100B0 /* PBXTargetDependency */,
+			);
+			name = AvivUITestsUITests;
+			productName = AvivUITestsUITests;
+			productReference = 67EEA40C2B680706007100B0 /* AvivUITestsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67EEA3EA2B680704007100B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					67EEA3F12B680704007100B0 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					67EEA4012B680706007100B0 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 67EEA3F12B680704007100B0;
+					};
+					67EEA40B2B680706007100B0 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 67EEA3F12B680704007100B0;
+					};
+				};
+			};
+			buildConfigurationList = 67EEA3ED2B680704007100B0 /* Build configuration list for PBXProject "AvivUITests" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67EEA3E92B680704007100B0;
+			packageReferences = (
+			);
+			productRefGroup = 67EEA3F32B680704007100B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67EEA3F12B680704007100B0 /* AvivUITests */,
+				67EEA4012B680706007100B0 /* AvivUITestsTests */,
+				67EEA40B2B680706007100B0 /* AvivUITestsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67EEA3F02B680704007100B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EEA4302B6808FC007100B0 /* aviv_design_system_ios in Resources */,
+				67EEA3FD2B680706007100B0 /* Preview Assets.xcassets in Resources */,
+				67EEA4322B680A4A007100B0 /* aviv_utils_ios in Resources */,
+				67EEA3FA2B680706007100B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EEA4002B680706007100B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EEA40A2B680706007100B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67EEA3EE2B680704007100B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EEA3F82B680704007100B0 /* ContentView.swift in Sources */,
+				67EEA3F62B680704007100B0 /* AvivUITestsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EEA3FE2B680706007100B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EEA4072B680706007100B0 /* AvivUITestsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67EEA4082B680706007100B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EEA4132B680706007100B0 /* AvivUITestsUITestsLaunchTests.swift in Sources */,
+				67EEA4112B680706007100B0 /* AvivUITestsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67EEA4042B680706007100B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67EEA3F12B680704007100B0 /* AvivUITests */;
+			targetProxy = 67EEA4032B680706007100B0 /* PBXContainerItemProxy */;
+		};
+		67EEA40E2B680706007100B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67EEA3F12B680704007100B0 /* AvivUITests */;
+			targetProxy = 67EEA40D2B680706007100B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		67EEA4142B680706007100B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67EEA4152B680706007100B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67EEA4172B680706007100B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AvivUITests/Preview Content\"";
+				DEVELOPMENT_TEAM = 6FBAJQSU6D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aviv.AvivUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67EEA4182B680706007100B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AvivUITests/Preview Content\"";
+				DEVELOPMENT_TEAM = 6FBAJQSU6D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aviv.AvivUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67EEA41A2B680706007100B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FBAJQSU6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aviv.AvivUITestsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvivUITests.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AvivUITests";
+			};
+			name = Debug;
+		};
+		67EEA41B2B680706007100B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FBAJQSU6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aviv.AvivUITestsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvivUITests.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AvivUITests";
+			};
+			name = Release;
+		};
+		67EEA41D2B680706007100B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FBAJQSU6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aviv.AvivUITestsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AvivUITests;
+			};
+			name = Debug;
+		};
+		67EEA41E2B680706007100B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6FBAJQSU6D;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aviv.AvivUITestsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AvivUITests;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67EEA3ED2B680704007100B0 /* Build configuration list for PBXProject "AvivUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67EEA4142B680706007100B0 /* Debug */,
+				67EEA4152B680706007100B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67EEA4162B680706007100B0 /* Build configuration list for PBXNativeTarget "AvivUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67EEA4172B680706007100B0 /* Debug */,
+				67EEA4182B680706007100B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67EEA4192B680706007100B0 /* Build configuration list for PBXNativeTarget "AvivUITestsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67EEA41A2B680706007100B0 /* Debug */,
+				67EEA41B2B680706007100B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67EEA41C2B680706007100B0 /* Build configuration list for PBXNativeTarget "AvivUITestsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67EEA41D2B680706007100B0 /* Debug */,
+				67EEA41E2B680706007100B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		67EEA4202B680750007100B0 /* DSComponents */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DSComponents;
+		};
+		67EEA4222B680750007100B0 /* DesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DesignSystem;
+		};
+		67EEA4242B680750007100B0 /* IMNDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = IMNDesignSystem;
+		};
+		67EEA4262B680750007100B0 /* IWBDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = IWBDesignSystem;
+		};
+		67EEA4282B680750007100B0 /* IWTDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = IWTDesignSystem;
+		};
+		67EEA42A2B680750007100B0 /* MADesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MADesignSystem;
+		};
+		67EEA42C2B680750007100B0 /* SLDesignSystem */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SLDesignSystem;
+		};
+		67EEA4342B680A76007100B0 /* Form */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Form;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 67EEA3EA2B680704007100B0 /* Project object */;
+}
