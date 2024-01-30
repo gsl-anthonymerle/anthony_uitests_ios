@@ -3,15 +3,22 @@ import DSComponents
 import Form
 
 struct ContentView: View {
-    @State private var textFieldValue: Decimal? = 100
+    @State private var decimalTextFieldValue: Decimal? = 100
+    @State private var stringTextFieldValue: String? = "Some value"
 
     var body: some View {
         VStack {
             DSTextField(
-                "Some Text field",
-                value: $textFieldValue,
+                "String Text field",
+                text: $stringTextFieldValue,
+                label: "String field"
+            )
+            
+            DSTextField(
+                "Decimal Text field",
+                value: $decimalTextFieldValue,
                 format: TextFormat(formatStyle: Decimal.FormatStyle()),
-                label: "Some label"
+                label: "Decimal field"
             )
         }
         .padding()

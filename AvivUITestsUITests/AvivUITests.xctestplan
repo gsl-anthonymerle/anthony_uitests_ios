@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "8D1D1F49-44FA-4917-B546-F0D6740A089D",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:AvivUITests.xcodeproj",
+      "identifier" : "67EEA3F12B680704007100B0",
+      "name" : "AvivUITests"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:AvivUITests.xcodeproj",
+        "identifier" : "67EEA4012B680706007100B0",
+        "name" : "AvivUITestsTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:AvivUITests.xcodeproj",
+        "identifier" : "67EEA40B2B680706007100B0",
+        "name" : "AvivUITestsUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

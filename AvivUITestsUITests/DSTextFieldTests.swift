@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class AvivUITestsUITests: XCTestCase {
+final class DSTextFieldTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -27,15 +27,11 @@ final class AvivUITestsUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
 
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+        
+        let stringTextField = app.textFields["String Text field"]
+        XCTAssertEqual(stringTextField.value as! String, "Some value")
 
-    func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTApplicationLaunchMetric()]) {
-                XCUIApplication().launch()
-            }
-        }
+        let decimalTextField = app.textFields["Decimal Text field"] 
+        XCTAssertEqual(decimalTextField.value as! String, "100")
     }
 }

@@ -12,8 +12,7 @@
 		67EEA3FA2B680706007100B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67EEA3F92B680706007100B0 /* Assets.xcassets */; };
 		67EEA3FD2B680706007100B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67EEA3FC2B680706007100B0 /* Preview Assets.xcassets */; };
 		67EEA4072B680706007100B0 /* AvivUITestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EEA4062B680706007100B0 /* AvivUITestsTests.swift */; };
-		67EEA4112B680706007100B0 /* AvivUITestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EEA4102B680706007100B0 /* AvivUITestsUITests.swift */; };
-		67EEA4132B680706007100B0 /* AvivUITestsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EEA4122B680706007100B0 /* AvivUITestsUITestsLaunchTests.swift */; };
+		67EEA4112B680706007100B0 /* DSTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EEA4102B680706007100B0 /* DSTextFieldTests.swift */; };
 		67EEA4212B680750007100B0 /* DSComponents in Frameworks */ = {isa = PBXBuildFile; productRef = 67EEA4202B680750007100B0 /* DSComponents */; };
 		67EEA4232B680750007100B0 /* DesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 67EEA4222B680750007100B0 /* DesignSystem */; };
 		67EEA4252B680750007100B0 /* IMNDesignSystem in Frameworks */ = {isa = PBXBuildFile; productRef = 67EEA4242B680750007100B0 /* IMNDesignSystem */; };
@@ -44,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		67A462A72B69097B00D4B3E6 /* AvivUITests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = AvivUITests.xctestplan; sourceTree = "<group>"; };
 		67EEA3F22B680704007100B0 /* AvivUITests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvivUITests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67EEA3F52B680704007100B0 /* AvivUITestsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvivUITestsApp.swift; sourceTree = "<group>"; };
 		67EEA3F72B680704007100B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,8 +52,7 @@
 		67EEA4022B680706007100B0 /* AvivUITestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvivUITestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67EEA4062B680706007100B0 /* AvivUITestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvivUITestsTests.swift; sourceTree = "<group>"; };
 		67EEA40C2B680706007100B0 /* AvivUITestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvivUITestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		67EEA4102B680706007100B0 /* AvivUITestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvivUITestsUITests.swift; sourceTree = "<group>"; };
-		67EEA4122B680706007100B0 /* AvivUITestsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvivUITestsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		67EEA4102B680706007100B0 /* DSTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTextFieldTests.swift; sourceTree = "<group>"; };
 		67EEA42F2B6808FC007100B0 /* aviv_design_system_ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = aviv_design_system_ios; path = ../../../aviv_whitelabel_ios/Packages/aviv_design_system_ios; sourceTree = "<group>"; };
 		67EEA4312B680A4A007100B0 /* aviv_utils_ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = aviv_utils_ios; path = ../../../aviv_whitelabel_ios/Packages/aviv_utils_ios; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,8 +142,8 @@
 		67EEA40F2B680706007100B0 /* AvivUITestsUITests */ = {
 			isa = PBXGroup;
 			children = (
-				67EEA4102B680706007100B0 /* AvivUITestsUITests.swift */,
-				67EEA4122B680706007100B0 /* AvivUITestsUITestsLaunchTests.swift */,
+				67A462A72B69097B00D4B3E6 /* AvivUITests.xctestplan */,
+				67EEA4102B680706007100B0 /* DSTextFieldTests.swift */,
 			);
 			path = AvivUITestsUITests;
 			sourceTree = "<group>";
@@ -326,8 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67EEA4132B680706007100B0 /* AvivUITestsUITestsLaunchTests.swift in Sources */,
-				67EEA4112B680706007100B0 /* AvivUITestsUITests.swift in Sources */,
+				67EEA4112B680706007100B0 /* DSTextFieldTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
