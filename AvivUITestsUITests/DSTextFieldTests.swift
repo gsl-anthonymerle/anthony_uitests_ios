@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import UITestCases
 
 final class DSTextFieldTests: XCTestCase {
 
@@ -24,7 +25,7 @@ final class DSTextFieldTests: XCTestCase {
 
     func testExample() throws {
         // UI tests must launch the application that they test.
-        let app = XCUIApplication()
+        let app = XCUIApplication(testCase: .formatedDSTextField)
         app.launch()
 
         

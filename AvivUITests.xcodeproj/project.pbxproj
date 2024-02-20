@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		678961982B84ABAF00297AC8 /* FormValidationTextOnlyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678961972B84ABAF00297AC8 /* FormValidationTextOnlyTests.swift */; };
+		6789619A2B84AC0800297AC8 /* XCUIApplication+TestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678961992B84AC0800297AC8 /* XCUIApplication+TestCases.swift */; };
+		67A462A92B690BF600D4B3E6 /* UITestCases in Resources */ = {isa = PBXBuildFile; fileRef = 67A462A82B690BF600D4B3E6 /* UITestCases */; };
+		67A462AB2B690C0300D4B3E6 /* UITestCases in Frameworks */ = {isa = PBXBuildFile; productRef = 67A462AA2B690C0300D4B3E6 /* UITestCases */; };
+		67A462AD2B690D4A00D4B3E6 /* UITestCases in Frameworks */ = {isa = PBXBuildFile; productRef = 67A462AC2B690D4A00D4B3E6 /* UITestCases */; };
+		67A462AF2B690E0F00D4B3E6 /* DSTextFieldFormattedTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A462AE2B690E0F00D4B3E6 /* DSTextFieldFormattedTestView.swift */; };
+		67A462B12B690EF700D4B3E6 /* UITestCases+Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A462B02B690EF700D4B3E6 /* UITestCases+Content.swift */; };
+		67A462B32B690F5600D4B3E6 /* NoTestCaseFoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A462B22B690F5600D4B3E6 /* NoTestCaseFoundView.swift */; };
+		67A462B62B6922B300D4B3E6 /* FormValidationTextOnlyTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A462B52B6922B300D4B3E6 /* FormValidationTextOnlyTestView.swift */; };
+		67A462B82B6922E900D4B3E6 /* aviv_composable_architecture_ios in Resources */ = {isa = PBXBuildFile; fileRef = 67A462B72B6922E900D4B3E6 /* aviv_composable_architecture_ios */; };
+		67A462BA2B69231000D4B3E6 /* AvivFormValidation in Frameworks */ = {isa = PBXBuildFile; productRef = 67A462B92B69231000D4B3E6 /* AvivFormValidation */; };
+		67A462BC2B69231500D4B3E6 /* AvivComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 67A462BB2B69231500D4B3E6 /* AvivComposableArchitecture */; };
 		67EEA3F62B680704007100B0 /* AvivUITestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EEA3F52B680704007100B0 /* AvivUITestsApp.swift */; };
 		67EEA3F82B680704007100B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EEA3F72B680704007100B0 /* ContentView.swift */; };
 		67EEA3FA2B680706007100B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67EEA3F92B680706007100B0 /* Assets.xcassets */; };
@@ -43,7 +55,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		678961972B84ABAF00297AC8 /* FormValidationTextOnlyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidationTextOnlyTests.swift; sourceTree = "<group>"; };
+		678961992B84AC0800297AC8 /* XCUIApplication+TestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCUIApplication+TestCases.swift"; sourceTree = "<group>"; };
 		67A462A72B69097B00D4B3E6 /* AvivUITests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = AvivUITests.xctestplan; sourceTree = "<group>"; };
+		67A462A82B690BF600D4B3E6 /* UITestCases */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = UITestCases; sourceTree = "<group>"; };
+		67A462AE2B690E0F00D4B3E6 /* DSTextFieldFormattedTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSTextFieldFormattedTestView.swift; sourceTree = "<group>"; };
+		67A462B02B690EF700D4B3E6 /* UITestCases+Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITestCases+Content.swift"; sourceTree = "<group>"; };
+		67A462B22B690F5600D4B3E6 /* NoTestCaseFoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoTestCaseFoundView.swift; sourceTree = "<group>"; };
+		67A462B52B6922B300D4B3E6 /* FormValidationTextOnlyTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidationTextOnlyTestView.swift; sourceTree = "<group>"; };
+		67A462B72B6922E900D4B3E6 /* aviv_composable_architecture_ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = aviv_composable_architecture_ios; path = ../../../aviv_whitelabel_ios/Packages/aviv_composable_architecture_ios; sourceTree = "<group>"; };
 		67EEA3F22B680704007100B0 /* AvivUITests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvivUITests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67EEA3F52B680704007100B0 /* AvivUITestsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvivUITestsApp.swift; sourceTree = "<group>"; };
 		67EEA3F72B680704007100B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,8 +87,11 @@
 				67EEA42B2B680750007100B0 /* MADesignSystem in Frameworks */,
 				67EEA4272B680750007100B0 /* IWBDesignSystem in Frameworks */,
 				67EEA42D2B680750007100B0 /* SLDesignSystem in Frameworks */,
+				67A462BC2B69231500D4B3E6 /* AvivComposableArchitecture in Frameworks */,
+				67A462BA2B69231000D4B3E6 /* AvivFormValidation in Frameworks */,
 				67EEA4212B680750007100B0 /* DSComponents in Frameworks */,
 				67EEA4252B680750007100B0 /* IMNDesignSystem in Frameworks */,
+				67A462AD2B690D4A00D4B3E6 /* UITestCases in Frameworks */,
 				67EEA4232B680750007100B0 /* DesignSystem in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -84,12 +107,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67A462AB2B690C0300D4B3E6 /* UITestCases in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67A462B42B69228300D4B3E6 /* TestCases */ = {
+			isa = PBXGroup;
+			children = (
+				67A462AE2B690E0F00D4B3E6 /* DSTextFieldFormattedTestView.swift */,
+				67A462B52B6922B300D4B3E6 /* FormValidationTextOnlyTestView.swift */,
+			);
+			path = TestCases;
+			sourceTree = "<group>";
+		};
 		67EEA3E92B680704007100B0 = {
 			isa = PBXGroup;
 			children = (
@@ -115,8 +148,11 @@
 		67EEA3F42B680704007100B0 /* AvivUITests */ = {
 			isa = PBXGroup;
 			children = (
+				67A462B42B69228300D4B3E6 /* TestCases */,
 				67EEA3F52B680704007100B0 /* AvivUITestsApp.swift */,
+				67A462B22B690F5600D4B3E6 /* NoTestCaseFoundView.swift */,
 				67EEA3F72B680704007100B0 /* ContentView.swift */,
+				67A462B02B690EF700D4B3E6 /* UITestCases+Content.swift */,
 				67EEA3F92B680706007100B0 /* Assets.xcassets */,
 				67EEA3FB2B680706007100B0 /* Preview Content */,
 			);
@@ -144,6 +180,8 @@
 			children = (
 				67A462A72B69097B00D4B3E6 /* AvivUITests.xctestplan */,
 				67EEA4102B680706007100B0 /* DSTextFieldTests.swift */,
+				678961972B84ABAF00297AC8 /* FormValidationTextOnlyTests.swift */,
+				678961992B84AC0800297AC8 /* XCUIApplication+TestCases.swift */,
 			);
 			path = AvivUITestsUITests;
 			sourceTree = "<group>";
@@ -151,6 +189,8 @@
 		67EEA42E2B6808E3007100B0 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				67A462B72B6922E900D4B3E6 /* aviv_composable_architecture_ios */,
+				67A462A82B690BF600D4B3E6 /* UITestCases */,
 				67EEA4312B680A4A007100B0 /* aviv_utils_ios */,
 				67EEA42F2B6808FC007100B0 /* aviv_design_system_ios */,
 			);
@@ -189,6 +229,9 @@
 				67EEA42A2B680750007100B0 /* MADesignSystem */,
 				67EEA42C2B680750007100B0 /* SLDesignSystem */,
 				67EEA4342B680A76007100B0 /* Form */,
+				67A462AC2B690D4A00D4B3E6 /* UITestCases */,
+				67A462B92B69231000D4B3E6 /* AvivFormValidation */,
+				67A462BB2B69231500D4B3E6 /* AvivComposableArchitecture */,
 			);
 			productName = AvivUITests;
 			productReference = 67EEA3F22B680704007100B0 /* AvivUITests.app */;
@@ -226,6 +269,9 @@
 				67EEA40E2B680706007100B0 /* PBXTargetDependency */,
 			);
 			name = AvivUITestsUITests;
+			packageProductDependencies = (
+				67A462AA2B690C0300D4B3E6 /* UITestCases */,
+			);
 			productName = AvivUITestsUITests;
 			productReference = 67EEA40C2B680706007100B0 /* AvivUITestsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -280,8 +326,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67A462B82B6922E900D4B3E6 /* aviv_composable_architecture_ios in Resources */,
 				67EEA4302B6808FC007100B0 /* aviv_design_system_ios in Resources */,
 				67EEA3FD2B680706007100B0 /* Preview Assets.xcassets in Resources */,
+				67A462A92B690BF600D4B3E6 /* UITestCases in Resources */,
 				67EEA4322B680A4A007100B0 /* aviv_utils_ios in Resources */,
 				67EEA3FA2B680706007100B0 /* Assets.xcassets in Resources */,
 			);
@@ -310,6 +358,10 @@
 			files = (
 				67EEA3F82B680704007100B0 /* ContentView.swift in Sources */,
 				67EEA3F62B680704007100B0 /* AvivUITestsApp.swift in Sources */,
+				67A462AF2B690E0F00D4B3E6 /* DSTextFieldFormattedTestView.swift in Sources */,
+				67A462B12B690EF700D4B3E6 /* UITestCases+Content.swift in Sources */,
+				67A462B62B6922B300D4B3E6 /* FormValidationTextOnlyTestView.swift in Sources */,
+				67A462B32B690F5600D4B3E6 /* NoTestCaseFoundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +377,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6789619A2B84AC0800297AC8 /* XCUIApplication+TestCases.swift in Sources */,
 				67EEA4112B680706007100B0 /* DSTextFieldTests.swift in Sources */,
+				678961982B84ABAF00297AC8 /* FormValidationTextOnlyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,6 +694,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		67A462AA2B690C0300D4B3E6 /* UITestCases */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UITestCases;
+		};
+		67A462AC2B690D4A00D4B3E6 /* UITestCases */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UITestCases;
+		};
+		67A462B92B69231000D4B3E6 /* AvivFormValidation */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AvivFormValidation;
+		};
+		67A462BB2B69231500D4B3E6 /* AvivComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AvivComposableArchitecture;
+		};
 		67EEA4202B680750007100B0 /* DSComponents */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = DSComponents;
